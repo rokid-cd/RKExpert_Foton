@@ -15,7 +15,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        if #available(iOS 15.0, *) {
+             let app = UINavigationBarAppearance()
+             app.configureWithOpaqueBackground()
+             app.titleTextAttributes = [
+                   NSAttributedString.Key.font: UIFont.systemFont(ofSize: 18),
+                   NSAttributedString.Key.foregroundColor: UIColor.black
+             ]
+             app.backgroundColor = UIColor.white
+             app.shadowColor = .clear
+             app.backgroundEffect = nil
+             UINavigationBar.appearance().scrollEdgeAppearance = app
+             UINavigationBar.appearance().standardAppearance = app
+        }
         return true
     }
 

@@ -1,5 +1,5 @@
 import XCTest
-import RKExpert_Foton
+import RokidSDK
 
 class Tests: XCTestCase {
     

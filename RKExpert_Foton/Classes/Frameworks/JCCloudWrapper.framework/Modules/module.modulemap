@@ -1,0 +1,6 @@
+framework module JCCloudWrapper {
+  umbrella header "JCCloudWrapper.h"
+
+  export *
+  module * { export * }
+}

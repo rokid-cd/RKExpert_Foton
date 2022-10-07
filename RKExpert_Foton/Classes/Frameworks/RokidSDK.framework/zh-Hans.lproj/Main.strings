@@ -1,0 +1,117 @@
+
+/* Class = "UITextField"; placeholder = "请输入新密码"; ObjectID = "3ay-2i-aM8"; */
+"3ay-2i-aM8.placeholder" = "请输入新密码";
+
+/* Class = "UILabel"; text = "屏幕共享中..."; ObjectID = "3zH-P8-sYY"; */
+"3zH-P8-sYY.text" = "屏幕共享中...";
+
+/* Class = "UIButton"; normalTitle = "加入"; ObjectID = "6mD-F6-8dL"; */
+"6mD-F6-8dL.normalTitle" = "加入";
+
+/* Class = "UILabel"; text = "多人协作"; ObjectID = "8hE-Zq-Zex"; */
+"8hE-Zq-Zex.text" = "多人协作";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "96G-gX-Cvg"; */
+"96G-gX-Cvg.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "启动该功能后，所有人的主画面将锁定为你的画面"; ObjectID = "Brg-kV-sPj"; */
+"Brg-kV-sPj.text" = "启动该功能后，所有人的主画面将锁定为你的画面";
+
+/* Class = "UIButton"; normalTitle = "720P"; ObjectID = "DfU-lO-8SA"; */
+"DfU-lO-8SA.normalTitle" = "720P";
+
+/* Class = "UIButton"; normalTitle = "联系人"; ObjectID = "F9p-Rf-KYF"; */
+"F9p-Rf-KYF.normalTitle" = "联系人";
+
+/* Class = "UIButton"; normalTitle = "退出登录"; ObjectID = "HXi-SN-dRx"; */
+"HXi-SN-dRx.normalTitle" = "退出登录";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "IyE-HR-s2N"; */
+"IyE-HR-s2N.title" = "Item";
+
+/* Class = "UIButton"; normalTitle = "开始协作"; ObjectID = "J57-lN-Thu"; */
+"J57-lN-Thu.normalTitle" = "开始协作";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "KKb-oh-UVb"; */
+"KKb-oh-UVb.title" = "Item";
+
+/* Class = "UILabel"; text = "是否对当前截图进行 “标注”？"; ObjectID = "KV0-LO-iWU"; */
+"KV0-LO-iWU.text" = "是否对当前截图进行 “标注”？";
+
+/* Class = "UIButton"; normalTitle = "1080P"; ObjectID = "Keh-OG-hYM"; */
+"Keh-OG-hYM.normalTitle" = "1080P";
+
+/* Class = "UITextField"; placeholder = "请输入旧密码"; ObjectID = "Myp-OV-Kdx"; */
+"Myp-OV-Kdx.placeholder" = "请输入旧密码";
+
+/* Class = "UIButton"; normalTitle = "开始协作"; ObjectID = "QmZ-qH-8fv"; */
+"QmZ-qH-8fv.normalTitle" = "开始协作";
+
+/* Class = "UILabel"; text = "远程协作"; ObjectID = "SKV-9s-sPH"; */
+"SKV-9s-sPH.text" = "远程协作";
+
+/* Class = "UIButton"; normalTitle = "取消"; ObjectID = "SQi-8M-kYp"; */
+"SQi-8M-kYp.normalTitle" = "取消";
+
+/* Class = "UILabel"; text = "使用眼镜扫码 登录远程协作"; ObjectID = "WfZ-OQ-cl4"; */
+"WfZ-OQ-cl4.text" = "使用眼镜扫码 登录远程协作";
+
+/* Class = "UILabel"; text = "邀请他人入会"; ObjectID = "Yac-eG-Hyr"; */
+"Yac-eG-Hyr.text" = "邀请他人入会";
+
+/* Class = "UITextField"; placeholder = "请输入账号"; ObjectID = "ayV-i5-U9N"; */
+"ayV-i5-U9N.placeholder" = "请输入账号";
+
+/* Class = "UIButton"; normalTitle = "登录"; ObjectID = "cFY-u4-1v7"; */
+"cFY-u4-1v7.normalTitle" = "登录";
+
+/* Class = "UILabel"; text = "已选： 0/16"; ObjectID = "cw5-2E-2Nd"; */
+"cw5-2E-2Nd.text" = "已选： 0/16";
+
+/* Class = "UIButton"; normalTitle = "取消"; ObjectID = "eVW-7A-CGp"; */
+"eVW-7A-CGp.normalTitle" = "取消";
+
+/* Class = "UILabel"; text = "摄像头未开启"; ObjectID = "fJA-c1-H4F"; */
+"fJA-c1-H4F.text" = "摄像头未开启";
+
+/* Class = "UILabel"; text = "多人多端 在线协作"; ObjectID = "gmi-lY-2vM"; */
+"gmi-lY-2vM.text" = "多人多端 在线协作";
+
+/* Class = "UITextField"; placeholder = "请输入密码"; ObjectID = "gvy-9I-ciE"; */
+"gvy-9I-ciE.placeholder" = "请输入密码";
+
+/* Class = "UITextField"; text = "Rokid@1234"; ObjectID = "gvy-9I-ciE"; */
+"gvy-9I-ciE.text" = "Rokid@1234";
+
+/* Class = "UITextField"; placeholder = "再次输入新密码"; ObjectID = "hx0-e5-lus"; */
+"hx0-e5-lus.placeholder" = "再次输入新密码";
+
+/* Class = "UIButton"; normalTitle = "登录"; ObjectID = "iLY-1i-usv"; */
+"iLY-1i-usv.normalTitle" = "登录";
+
+/* Class = "UIButton"; normalTitle = "开始协作"; ObjectID = "j0e-0f-Qax"; */
+"j0e-0f-Qax.normalTitle" = "开始协作";
+
+/* Class = "UIButton"; normalTitle = "修改登录密码"; ObjectID = "n8p-JD-W9e"; */
+"n8p-JD-W9e.normalTitle" = "修改登录密码";
+
+/* Class = "UITextField"; placeholder = "请输入公司代号ID"; ObjectID = "oxF-NH-cXc"; */
+"oxF-NH-cXc.placeholder" = "请输入公司代号ID";
+
+/* Class = "UILabel"; text = "aaaa啊啊啊啊"; ObjectID = "pL8-gq-e0e"; */
+"pL8-gq-e0e.text" = "aaaa啊啊啊啊";
+
+/* Class = "UIButton"; normalTitle = "开始标注"; ObjectID = "qHD-my-DEC"; */
+"qHD-my-DEC.normalTitle" = "开始标注";
+
+/* Class = "UIButton"; normalTitle = "小组"; ObjectID = "ro2-PN-QH6"; */
+"ro2-PN-QH6.normalTitle" = "小组";
+
+/* Class = "UILabel"; text = "未入会联系人"; ObjectID = "uD4-9H-HrL"; */
+"uD4-9H-HrL.text" = "未入会联系人";
+
+/* Class = "UILabel"; text = "发起的多人协作"; ObjectID = "uio-i5-yX7"; */
+"uio-i5-yX7.text" = "发起的多人协作";
+
+/* Class = "UILabel"; text = "眼睛端登录二维码"; ObjectID = "wsl-VB-eZl"; */
+"wsl-VB-eZl.text" = "眼睛端登录二维码";
