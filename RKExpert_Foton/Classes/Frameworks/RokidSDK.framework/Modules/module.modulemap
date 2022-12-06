@@ -6,6 +6,6 @@ framework module RokidSDK {
 }
 
 module RokidSDK.Swift {
-    header "RokidSDK-Swift.h"
-    requires objc
+  header "RokidSDK-Swift.h"
+  requires objc
 }

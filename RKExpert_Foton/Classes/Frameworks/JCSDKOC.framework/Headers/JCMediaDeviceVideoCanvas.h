@@ -66,8 +66,11 @@
 /**
  * 旋转角度，必须是90的倍数，该角度表示与屏幕正方向旋转后的夹角
  * @param angle 角度值
+ * @return 是否成功
+ * - true: 成功
+ * - false: 失败
  */
--(void)rotate:(int)angle;
+-(bool)rotate:(int)angle;
 
 /**
  * 视频通话截图

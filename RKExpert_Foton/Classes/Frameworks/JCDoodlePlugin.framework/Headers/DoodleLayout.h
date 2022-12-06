@@ -130,5 +130,18 @@
 
 - (NSString*)doodleActionToString:(DoodleAction*)doodleAction;
 
+/**
+ * @brief 设置画布尺寸
+ */
+
+- (void)resetDoodleViewFrame:(CGRect)rect;
+
+
+/**
+ * @brief 开关toolbar
+ */
+
+- (void)hideToolBar:(bool)hide;
+
 
 @end

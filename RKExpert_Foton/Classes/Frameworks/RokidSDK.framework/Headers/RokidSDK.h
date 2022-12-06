@@ -21,6 +21,8 @@ FOUNDATION_EXPORT const unsigned char RokidSDKVersionString[];
 #import <RokidSDK/UIImage+QRCode.h>
 #import <RokidSDK/RKDrawView.h>
 #import <RokidSDK/Aspects.h>
+#import <RokidSDK/RKPixelBufferConvert.h>
 #import <RokidSDK/RKCooperation.h>
 #import <RokidSDK/RKCooperationModel.h>
 #import <RokidSDK/RKCooperationDefine.h>
+

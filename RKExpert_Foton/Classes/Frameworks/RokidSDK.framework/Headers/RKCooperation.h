@@ -6,9 +6,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <Foundation/Foundation.h>
+#import <ReplayKit/ReplayKit.h>
 #import "RKCooperationDefine.h"
 #import "RKCooperationModel.h"
+
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -25,6 +26,12 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param userId 用户ID
 - (void)onCallAccept:(NSString *)meetingId
               userId:(NSString *)userId;
+
+/// 呼叫被接听
+/// @param meetingId 会议ID
+/// @param userId 用户ID
+- (void)onCallAcceptBy:(NSString *)meetingId
+                userId:(NSString *)userId;
 
 /// 拒接会议
 /// @param meetingId 会议ID
@@ -50,14 +57,15 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)onCallTimeout:(NSString *)meetingId
                userId:(NSString *)userId;
 
+/// 开始呼叫
+/// @param meetingId 会议ID
+/// @param userId 用户ID
+- (void)onCallStart:(NSString *)meetingId
+             userId:(NSString *)userId;
+
 /// 加入会议成功 ( 首次进入会议 )
 /// @param meetingId 会议ID
 - (void)onJoined:(NSString *)meetingId;
-
-/// 加入会议成功
-/// @param meetingId 会议ID
-
-
 
 /// 离开会议
 /// @param meetingId 会议ID
@@ -163,6 +171,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, weak) id <RKCooperationDelegate> meetingDelegate;
 /// 横竖屏状态标记
 @property (nonatomic, assign) UIInterfaceOrientationMask interfaceOrientation;
+/// 是否已经开始
+@property (nonatomic, assign) BOOL meetingStart;
+/// 是否正在共享屏幕
+@property (nonatomic, assign) BOOL screenShare;
 
 
 /// 不要调用对象构造方法创建
@@ -313,6 +325,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param text 文本消息内容
 - (void)sendGroupMessage:(NSString *)serverId
                     text:(NSString *)text;
+
+/// 配置屏幕共享ID
+- (void)configScreenShareExtenId:(NSString *)shareExtenId;
 
 
 @end

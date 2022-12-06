@@ -29,6 +29,11 @@
 @property (nonatomic, readonly) int number;
 
 /**
+ * 开始时间
+ */
+@property (nonatomic, readonly) double startTime;
+
+/**
  * 成员数
  */
 @property (nonatomic, readonly) int clientCount;

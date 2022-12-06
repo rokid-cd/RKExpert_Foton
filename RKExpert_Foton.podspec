@@ -30,27 +30,38 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-  
-  s.requires_arc = true
-  
+    
   s.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'NO', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'ENABLE_BITCODE' => 'NO', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
-  
-  s.vendored_frameworks = 'RKExpert_Foton/Classes/Frameworks/*.framework'
-  s.source_files = 'RKExpert_Foton/Classes/Include/**/*'
-  s.resources = 'RKExpert_Foton/Assets/*.bundle'
+  s.requires_arc = true
 
-  s.dependency "Moya", "~> 13.0.1"
-  s.dependency "HandyJSON", '~> 5.0.2'
-  s.dependency "Kingfisher", "~> 4.10.1"
-  s.dependency "SnapKit", "~> 4.2.0"
-  s.dependency "Then", "~> 2.7.0"
-  s.dependency 'IQKeyboardManager', '~> 6.5.6'
-  s.dependency "ReachabilitySwift", "~> 5.0.0"
-  s.dependency "PullToRefreshKit", "~> 0.8.8"
-# QMUIKit  4.2.0 开始不再支持 iOS 9.0
-  s.dependency 'QMUIKit', '~> 4.1.3'
-  s.dependency 'FMDB', '~> 2.7.5'
+  s.libraries    = "stdc++"
+
+  s.default_subspec = 'RKExpert_Foton'
+
+  s.subspec 'RKExpert_Foton' do |ss|
+
+    ss.vendored_frameworks = 'RKExpert_Foton/Classes/Frameworks/*.framework'
+    ss.source_files = 'RKExpert_Foton/Classes/Include/**/*'
+    ss.resources = 'RKExpert_Foton/Assets/*.bundle'
+
+    ss.dependency "Moya", "~> 13.0.1"
+    ss.dependency "HandyJSON", '~> 5.0.2'
+    ss.dependency "Kingfisher", "~> 4.10.1"
+    ss.dependency "SnapKit", "~> 4.2.0"
+    ss.dependency "Then", "~> 2.7.0"
+    ss.dependency 'IQKeyboardManager', '~> 6.5.6'
+    ss.dependency "ReachabilitySwift", "~> 5.0.0"
+    ss.dependency "PullToRefreshKit", "~> 0.8.8"
+    # QMUIKit  4.2.0 开始不再支持 iOS 9.0
+    ss.dependency 'QMUIKit', '~> 4.1.3'
+
+  end
+
+  s.subspec 'RokidReplayKit' do |ss|
+    ss.vendored_frameworks = 'RKExpert_Foton/Classes/Frameworks/RokidReplayKit.framework'
+  end
+  
   
 end
