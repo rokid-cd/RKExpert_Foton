@@ -54,6 +54,7 @@ TODO: Add long description of the pod here.
     ss.dependency 'IQKeyboardManager', '~> 6.5.6'
     ss.dependency "ReachabilitySwift", "~> 5.0.0"
     ss.dependency "PullToRefreshKit", "~> 0.8.8"
+    ss.dependency "SCNLine", "~> 1.0"
     # QMUIKit  4.2.0 开始不再支持 iOS 9.0
     ss.dependency 'QMUIKit', '~> 4.1.3'
 
