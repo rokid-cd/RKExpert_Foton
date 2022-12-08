@@ -42,10 +42,11 @@ TODO: Add long description of the pod here.
 
   s.subspec 'RKExpert_Foton' do |ss|
 
-    ss.vendored_frameworks = 'RKExpert_Foton/Classes/Frameworks/*.framework'
+    ss.vendored_frameworks = 'RKExpert_Foton/Classes/Frameworks/RokidSDK/*.framework'
     ss.source_files = 'RKExpert_Foton/Classes/Include/**/*'
     ss.resources = 'RKExpert_Foton/Assets/*.bundle'
-
+    ss.dependency 'RKExpert_Foton/RokidReplayKit'
+    
     ss.dependency "Moya", "~> 13.0.1"
     ss.dependency "HandyJSON", '~> 5.0.2'
     ss.dependency "Kingfisher", "~> 4.10.1"
@@ -57,11 +58,10 @@ TODO: Add long description of the pod here.
     ss.dependency "SCNLine", "~> 1.0"
     # QMUIKit  4.2.0 开始不再支持 iOS 9.0
     ss.dependency 'QMUIKit', '~> 4.1.3'
-
   end
 
   s.subspec 'RokidReplayKit' do |ss|
-    ss.vendored_frameworks = 'RKExpert_Foton/Classes/Frameworks/RokidReplayKit.framework'
+    ss.vendored_frameworks = 'RKExpert_Foton/Classes/Frameworks/RokidReplayKit/RokidReplayKit.framework'
   end
   
   
