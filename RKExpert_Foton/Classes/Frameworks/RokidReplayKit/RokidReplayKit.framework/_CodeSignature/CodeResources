@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/RokidReplayKitExtension.h</key>
 		<data>
-		5ScZfMjIpW8bnMTIuEVYb3104qc=
+		zLQc0QKgrQGQIbduBJGwig1EnzM=
 		</data>
 		<key>Headers/RokidReplayKitSampleHandler.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		kJBmVJZ6nf/Q96qxQppZAjv1pCc=
+		WTn4ns16JegzQz+awEjeI9yZ1Kk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -42,11 +42,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5ScZfMjIpW8bnMTIuEVYb3104qc=
+			zLQc0QKgrQGQIbduBJGwig1EnzM=
 			</data>
 			<key>hash2</key>
 			<data>
-			mSIErdBjzh0/iIfi/TqYIUr+w1Xbg+b4XSJnZbeguvs=
+			DCSOC1Y4s2yVPOPkn4u7wA6h9CsKs82ZUkdBKKsJ48o=
 			</data>
 		</dict>
 		<key>Headers/RokidReplayKitSampleHandler.h</key>

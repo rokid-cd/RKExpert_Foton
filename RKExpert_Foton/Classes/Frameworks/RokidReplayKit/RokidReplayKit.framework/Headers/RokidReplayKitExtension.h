@@ -11,21 +11,18 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface RokidReplayKitExtension : NSObject
 
-/// 获取单例
-+ (instancetype)sharedInstance;
++ (void)extensionStartSampleHandler;
 
-- (void)extensionStartSampleHandler;
++ (void)extensionPaused;
 
-- (void)extensionPaused;
++ (void)extensionResumed;
 
-- (void)extensionResumed;
++ (void)extensionFinished;
 
-- (void)extensionFinished;
-
-- (void)extensionProcessSampleBuffer:(CMSampleBufferRef)sampleBuffer
++ (void)extensionProcessSampleBuffer:(CMSampleBufferRef)sampleBuffer
                             withType:(RPSampleBufferType)sampleBufferType;
 
-- (void)processSampleBuffer:(nullable void(^)(CVPixelBufferRef sampleBuffer))sampleBuffer;
++ (void)monitorProcessSampleBuffer:(nullable void(^)(CVPixelBufferRef sampleBuffer))sampleBuffer;
 @end
 
 NS_ASSUME_NONNULL_END

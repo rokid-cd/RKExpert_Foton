@@ -214,7 +214,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = 37CF6T7JQ8;
+						DevelopmentTeam = 3YUD9UBP45;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -343,12 +343,12 @@
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
 				"${BUILT_PRODUCTS_DIR}/PullToRefreshKit/PullToRefreshKit.framework",
 				"${BUILT_PRODUCTS_DIR}/QMUIKit/QMUIKit.framework",
-				"${PODS_ROOT}/../../RKExpert_Foton/Classes/Frameworks/FMDB.framework",
-				"${PODS_ROOT}/../../RKExpert_Foton/Classes/Frameworks/JCCloudWrapper.framework",
-				"${PODS_ROOT}/../../RKExpert_Foton/Classes/Frameworks/JCDoodlePlugin.framework",
-				"${PODS_ROOT}/../../RKExpert_Foton/Classes/Frameworks/JCSDKOC.framework",
-				"${PODS_ROOT}/../../RKExpert_Foton/Classes/Frameworks/JuphoonCommon.framework",
-				"${PODS_ROOT}/../../RKExpert_Foton/Classes/Frameworks/RokidSDK.framework",
+				"${PODS_ROOT}/../../RKExpert_Foton/Classes/Frameworks/RokidSDK/FMDB.framework",
+				"${PODS_ROOT}/../../RKExpert_Foton/Classes/Frameworks/RokidSDK/JCCloudWrapper.framework",
+				"${PODS_ROOT}/../../RKExpert_Foton/Classes/Frameworks/RokidSDK/JCDoodlePlugin.framework",
+				"${PODS_ROOT}/../../RKExpert_Foton/Classes/Frameworks/RokidSDK/JCSDKOC.framework",
+				"${PODS_ROOT}/../../RKExpert_Foton/Classes/Frameworks/RokidSDK/JuphoonCommon.framework",
+				"${PODS_ROOT}/../../RKExpert_Foton/Classes/Frameworks/RokidSDK/RokidSDK.framework",
 				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/SCNLine/SCNLine.framework",
@@ -535,7 +535,7 @@
 			baseConfigurationReference = 78895EB1D365B8CF8DCFD820 /* Pods-RKExpert_Foton_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 37CF6T7JQ8;
+				DEVELOPMENT_TEAM = 3YUD9UBP45;
 				INFOPLIST_FILE = RKExpert_Foton/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -552,7 +552,7 @@
 			baseConfigurationReference = C58C1DDA610BB3DE4B00AE33 /* Pods-RKExpert_Foton_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 37CF6T7JQ8;
+				DEVELOPMENT_TEAM = 3YUD9UBP45;
 				INFOPLIST_FILE = RKExpert_Foton/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
