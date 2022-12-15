@@ -1058,6 +1058,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) RKMeetingMgr * _Nonnul
 @property (nonatomic) BOOL audioSwitch;
 @property (nonatomic) BOOL trumpetSwitch;
 @property (nonatomic) BOOL muteAll;
+@property (nonatomic) BOOL switchCamera;
 @property (nonatomic, copy) NSString * _Nonnull maxResolution;
 @property (nonatomic, copy) NSString * _Nonnull videoUrl;
 @property (nonatomic) NSInteger shareDefaultColor;
