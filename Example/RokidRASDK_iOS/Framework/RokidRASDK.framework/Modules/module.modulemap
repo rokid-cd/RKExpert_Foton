@@ -1,0 +1,6 @@
+framework module RokidRASDK {
+  umbrella header "RokidRASDK.h"
+
+  export *
+  module * { export * }
+}

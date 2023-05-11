@@ -1,0 +1,16 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'RKExpert_Foton_Example' do
+  #pod 'RokidRASDK', :path => 'RokidRASDK_iOS'
+  pod 'RKExpert_Foton', :path => '../'
+
+  target 'RKExpert_Foton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
+
+
