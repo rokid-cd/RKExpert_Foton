@@ -606,10 +606,10 @@ SWIFT_CLASS("_TtC8RokidSDK20RKCallViewController")
 @end
 
 
-
 @interface RKCallViewController (SWIFT_EXTENSION(RokidSDK)) <RKMessageProtocol>
 - (void)onMessageReceived:(RKMessage * _Nonnull)message;
 @end
+
 
 
 @class JCConversationData;
@@ -688,6 +688,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) RKChatManage
 + (void)addMemersWithServerId:(NSString * _Nonnull)serverId members:(NSArray<RKChatMember *> * _Nonnull)members resultBlock:(void (^ _Nonnull)(BOOL))resultBlock;
 - (void)setStartMeetingStatus;
 + (void)dissolutionGroupWithServerId:(NSString * _Nonnull)serverId successBlock:(void (^ _Nonnull)(void))successBlock failBlock:(void (^ _Nonnull)(NSString * _Nonnull))failBlock;
++ (void)updateConversationsUnread:(void (^ _Nullable)(NSInteger))success;
 @end
 
 
@@ -756,6 +757,16 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) RKChatManage
 SWIFT_CLASS("_TtC8RokidSDK13RKChatMessage")
 @interface RKChatMessage : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC8RokidSDK26RKChatRecordViewController")
+@interface RKChatRecordViewController : RKChatDetailViewController
+- (nonnull instancetype)initWithGroupId:(NSString * _Nonnull)groupId OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)viewDidLoad;
+- (UIView * _Nullable)tableView:(UITableView * _Nonnull)tableView viewForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
 
@@ -1161,8 +1172,6 @@ SWIFT_CLASS("_TtC8RokidSDK30RKMideaModeratorViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-
-
 @class QMUIAlbumViewController;
 @class QMUIImagePickerViewController;
 
@@ -1174,10 +1183,12 @@ SWIFT_CLASS("_TtC8RokidSDK30RKMideaModeratorViewController")
 
 
 
+
+
+
 @interface RKMideaModeratorViewController (SWIFT_EXTENSION(RokidSDK)) <RKMessageProtocol>
 - (void)onMessageReceived:(RKMessage * _Nonnull)message;
 @end
-
 
 @class UIImagePickerController;
 

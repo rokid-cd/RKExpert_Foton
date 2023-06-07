@@ -316,7 +316,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param onSuccess 回调未读消息数 NSNumber
 - (void)getUnreadMsgCount:(RKOnSuccess)onSuccess;
 
-
+/// 消息记录
+- (void)enterChatRecordWithGroupId:(NSString *)groupId nav:(UINavigationController *)nav;
 /**
  * 解散群聊
  *
